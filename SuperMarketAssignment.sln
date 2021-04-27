@@ -8,6 +8,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperMarketAssignment.Test", "SuperMarketAssignment.Test\SuperMarketAssignment.Test.csproj", "{7325681F-AE42-4270-A1FF-E79F784B2C35}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Supermarket.WebApi", "Supermarket.WebApi\Supermarket.WebApi.csproj", "{124E66E9-C72C-44E1-B274-093147FBA012}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7325681F-AE42-4270-A1FF-E79F784B2C35} = {7325681F-AE42-4270-A1FF-E79F784B2C35}
+		{F22486A1-A588-49E9-AF0E-72B1A82E5522} = {F22486A1-A588-49E9-AF0E-72B1A82E5522}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
